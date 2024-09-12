@@ -1,0 +1,8 @@
+# Ignore everything in csrc
+csrc/*
+
+# But don't ignore .c files
+!csrc/*.c
+
+# And don't ignore Makefile
+!csrc/Makefile
