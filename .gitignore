@@ -3,6 +3,7 @@ csrc/*
 
 # But don't ignore .c files
 !csrc/*.c
+!csrc/*.h
 
 # And don't ignore Makefile
 !csrc/Makefile
